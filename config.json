@@ -1,0 +1,53 @@
+{
+    "token": "Bot MzYxOTg3MDIxMDgzNzcwODkw.DRNf5Q.Z4U_Lm1GWlguxdwMg_ifA3FqTxE",
+    "batch": "%s",
+    "prefix": "!",
+    "client-options": {
+        "routeDelay": 300,
+        "maxRetries": 5,
+        "shardCount": 0,
+        "firstShard": 0,
+        "lastShard": 0,
+        "largeThreshold": 100,
+        "cacheAllMembers": true,
+        "autoReconnect": true,
+        "compress": true,
+        "bitrate": 64000,
+        "logFile": "discordia.log",
+        "logLevel": 2,
+        "dateTime": "%F %T",
+        "syncGuilds": false
+    },
+    "defaults": {
+        "guild-settings": {
+            "joinlog": {
+                "enabled": false,
+                "channel": ""
+            },
+            "modlog": {
+                "enabled": false,
+                "channel": ""
+            },
+            "messagelog": {
+                "enabled": false,
+                "channel": ""
+            },
+            "prefix": "!",
+            "invite": "",
+            "roblox": {
+                "group": 0,
+                "highestrole": "",
+                "rolesenabled": false
+            }
+        }
+    },
+    "ignore-webhook-messages": true,
+    "ignore-bot-messages": true,
+    "firebase": {
+        "key": "",
+        "root": "",
+
+        "email": "",
+        "password": ""
+    }
+}
