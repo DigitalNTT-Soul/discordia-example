@@ -37,7 +37,7 @@ end
 function init:client(options)
 
 	local client = discordia.Client(options)
-	return client
+	return running or client
 
 end
 
